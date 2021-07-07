@@ -1,0 +1,53 @@
+.main {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    bottom: 5%;
+    width: 80%;
+    height: 60%;
+    background-color: whitesmoke;
+    border:rgb(44, 44, 44) 2px solid;
+    box-shadow: rgba(102, 102, 102, 0.247) 4px 4px;
+}
+
+.roof {
+    position: relative;
+    width: 30%;
+    height: 12px;
+    background-color: rgb(44, 44, 44);
+}
+
+.rope {
+    position: absolute;
+    top: 5px;
+    width: 2px;
+    height: 200px;
+    background-color: rgb(44, 44, 44);
+}
+
+.knot {
+    position: absolute;
+    top: 495px;
+    width: 5px;
+    height: 5px;
+    background-color: rgb(44, 44, 44);
+}
+
+.ball {
+    position: absolute;
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    background-color: rgb(44, 44, 44);
+    box-shadow: 0 0 4px rgb(255, 255, 255);
+}
+
+.floor {
+    position: absolute;
+    width: 100%;
+    bottom: 20%;
+    height: 12px;
+    background-color: rgb(44, 44, 44);
+}
+
+
